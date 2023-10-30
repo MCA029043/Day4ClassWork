@@ -1,0 +1,98 @@
+/* Resetting default margin and padding for the body */
+body {
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+}
+.container {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(239, 240, 243);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ul {
+    list-style: none;
+    display: flex;
+}
+
+ul > li {
+    font-size: 20px;
+    color: black;
+    margin: 10px;
+}
+
+.list1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    margin-list2: 100px;
+}
+
+.list2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    margin-list1: auto;
+}
+
+button {
+    background-color: green;
+    width: 100px;
+    color: white;
+    margin-list2: 100px;
+}
+
+/* main section styles */
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+    background-color: rgba(25, 50,91, 1);
+    color: white;
+    height: 20em;
+}
+
+.btn {
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 40px;
+    color: white;
+    margin-list1: 100px;
+}
+
+/* Card Hello styles */
+.card-container {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+}
+
+.icon {
+    width: 300px;
+    height: 500px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px;
+}
+.img-class{
+    height: 90px;
+}
+
+p {
+    font-size: 18px;
+    font-weight:100;
+}
