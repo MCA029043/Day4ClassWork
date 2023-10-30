@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="root"></div>
+
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+        function Hello() {
+            return (
+                <>
+                    <header>
+                        <div className="container">
+                            <div className="list1">
+                                <ul className="ul">
+                                    <li>Hootsuit</li>
+                                    <li>Platforms</li>
+                                    <li>Plans</li>
+                                    <li>Enterprise</li>
+                                    <li>Resource</li>
+                                    <li>Education</li>
+                                </ul>
+                            </div>
+                            <div className="list2">
+                                <ul className="ul">
+                                    <li>Contact us</li>
+                                    <li>Login</li>
+                                    <button>Sign Up</button>
+                                </ul>
+                            </div>
+                        </div>
+                    </header>
+
+                    <div className="main">
+                        <h1 className="h1">See value from social sooner</h1>
+                        <p className="p">Our training and strategic services have helped thousands of organizations succeed on social</p>
+                        <button className="btn">Request a Demo</button>
+                    </div>
+                    <div class="card-container">
+                        <div class="icon">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKSq__pliR1zfOgkXZ0MQ7fUP0Z0PSQiSmfA&usqp=CAU" 
+                            class="img-class" alt="img" />
+                            <h2>2500</h2>
+                            <p>enterprise organizations successfully launched</p>
+                        </div>
+
+                        <div class="icon">
+                            <img src="https://img.freepik.com/premium-vector/calendar-date-circled-hand-man_165488-4933.jpg" class="img-class" alt="img" />
+                            <h2>45,000</h2>
+                            <p>enterprise users onboard seamlessly</p>
+                        </div>
+
+                        <div class="icon">
+                            <img src="https://static.vecteezy.com/system/resources/previews/000/550/535/non_2x/user-icon-vector.jpg" class="img-class" alt="img" />
+                            <h2>200,000+</h2>
+                            <p>enterprise trained on product and strategy</p>
+                        </div>
+                    </div>
+                </>
+            );
+        }
+
+        const container = document.getElementById('root');
+        const root = ReactDOM.createRoot(container);
+        root.render(<Hello />);
+    </script>
+</body>
+</html>
